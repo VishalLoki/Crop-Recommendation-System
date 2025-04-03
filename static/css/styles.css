@@ -1,0 +1,66 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #f9f9f9, #e8f8f5);
+    color: #333;
+}
+
+/* Header Styles */
+h1 {
+    color: #008037;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Form and Result Cards */
+.card {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-control {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+select.form-select {
+    background-color: #fff;
+}
+
+/* Button Styles */
+.btn-primary {
+    background-color: #008037;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.btn-primary:hover {
+    background-color: #00662e;
+}
+
+.btn-secondary {
+    background-color: #008037;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.btn-secondary:hover {
+    background-color: #00662e;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    .card {
+        margin-top: 20px;
+    }
+}
